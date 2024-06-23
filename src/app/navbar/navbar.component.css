@@ -1,0 +1,33 @@
+.nav {
+  border-top: 1px solid rgba(0, 0, 0, 0.475);
+
+  p,
+  a {
+    text-decoration: none;
+    color: black;
+    padding: 1rem 2rem;
+  }
+}
+
+.head {
+  margin-top: 2%;
+  flex-direction: column;
+
+  i {
+    font-size: 2rem;
+  }
+  p {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 1.3rem;
+    padding-top: 2px;
+  }
+}
+.all-nav {
+  background: linear-gradient(
+    135deg,
+    rgba(173, 216, 230, 0.8),
+    rgba(72, 209, 204, 0.8)
+  );
+  padding-top: 1rem;
+  border-bottom: 5px solid rgba(125, 173, 220, 0.346);
+}

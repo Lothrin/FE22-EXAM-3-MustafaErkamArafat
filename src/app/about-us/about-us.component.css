@@ -1,0 +1,12 @@
+body {
+  background-image: url("/images/store.png");
+  background-repeat: repeat;
+  background-size: auto;
+}
+
+.container {
+  max-width: 75%;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+}

@@ -1,0 +1,23 @@
+<div class="ins card my-5" style="width: 100%">
+  <img [src]="product.image" class="card-img-top" alt="..." />
+  <div class="card-body">
+    <h5 class="card-title">{{ product.title }}</h5>
+    <p class="card-text">{{ product.description }}</p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">{{ product.type }}</li>
+    <li class="list-group-item">{{ product.price | currency : "EUR" }}</li>
+  </ul>
+  <div class="card-body">
+    <a routerLink="/products" class="card-link" style="text-decoration: none"
+      >Go Back</a
+    ><button
+      (click)="addToCart()"
+      type="button"
+      class="btn btn-success mx-3"
+      style="text-decoration: none"
+    >
+      Add to Cart
+    </button>
+  </div>
+</div>
